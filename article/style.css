@@ -1,0 +1,273 @@
+body{
+     padding: 50px 0;
+     /*margin: 0;*/
+     font-size: 18px;
+     font-family:HelveticaNeueETW02-45Lt;
+}
+
+article {
+	margin: 0 auto;
+	 width: 800px;
+
+}
+
+/*figure {
+	padding: :0;
+	margin: 0;
+	width: 100%;
+	height: 100vh
+}
+*/
+.box {
+	border:0.5px solid;
+	background-color: grey;
+	width:60%;
+	padding:10px;
+	margin: 0 auto;
+}
+
+/*header{
+	position: relative;
+
+}*/
+
+p.journey {
+	 font-family: HelveticaNeueETW02-45Lt;
+	 font-size: 1.368em;
+	 padding:5px;
+	 text-align: center;
+	 line-height: 1.5em;
+	 margin: 1.038em 0px;
+}
+p.route {
+	 font-family: HelveticaNeueETW02-45Lt;
+	 font-size: 1.368em;
+	 padding:5px;
+	 text-align: center;
+	 line-height: 1.5em;
+	 margin: 1.038em 0px;
+}
+
+h1 {
+   font-family: HelveticaNeueETW02-45Lt;
+	/*position:absolute;*/
+	/*top:50%;*/
+	text-align:center;
+	/*width:100%;*/
+	color:black;
+	font-size: 60px;
+	line-height: 0.950em;
+}
+
+h5 {
+	color:white;
+	font-size: 16px;
+	font-family: HelveticaNeueETW02-45Lt;
+}
+
+p.byline {
+	 text-align: center;
+	 font-size: 18px;
+	 letter-spacing:1px;
+	 margin-top: 10px;
+	 font-family:Georgia;
+	 position:relative;
+}
+
+time {
+	 text-align: center;
+	 font-size: 15px;
+	 letter-spacing:1px;
+	 margin-top: 10px;
+	 font-family:Georgia;
+	 position:relative;
+}
+
+.headerContent{
+	width: 1024px;
+	height: auto;
+	margin: 0px, auto;
+
+}
+
+p.intro {
+	 font-family: HelveticaNeueETW02-45Lt;
+	 font-size: 1.368em;
+	 padding:5px;
+	 text-align: center;
+	 line-height: 1.5em;
+	 margin: 1.038em 0px;
+}
+
+#ImageIntro {
+	position: relative;
+	width:1254px;
+	height:650px;
+	
+}
+
+.nav {
+	height: 40px;
+	background:#585858;
+	width:1254px;
+	margin-bottom: 10px;
+	text-align: center;
+
+
+}
+
+.nav ul {
+	margin:auto;
+	padding: 0px;
+	/*float: center;*/
+	/*text-align:center;*/
+	list-style:none;
+	display: inline-block;
+}
+
+.nav ul li {
+	list-style:none;
+	float: left;
+	text-align: center;
+}
+
+.nav ul li a {
+	text-decoration:none;
+	float: left;
+	display: block;
+	padding: 10px 60px;
+	color: white;
+	text-align: center;
+	font-family:Georgia;
+
+}
+
+.nav ul li a:hover {
+	color:white;
+} 
+
+p {
+	 font-size:18px;
+	 font-family:Georgia;
+	 letter-spacing:-.004em;
+	 font-weight: 400;
+	 font-style: normal;
+	 line-height: 1.421em;
+	 color: rgba(51, 51, 51, 0.80);
+	 margin: 0px 0px 1.421em 0px;
+	 line-height: 1.4;
+	 padding-top:2px;
+}
+p.pullquote {
+	 padding-left: 10px;
+	 border-style: solid;
+	 border-left-width: 3px;
+	 color: rgba(51, 51, 51, 1.00);
+	 font-size: 1em;
+	 line-height: 1.421em;
+	 margin: 0px 0px 1.421em 0px;
+}
+
+p.chart {
+    font-family: HelveticaNeueETW02-45Lt;
+    font-size: 1.368em;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 1.038em 0px;
+}
+
+h2 {
+	 font-size:30px;
+	 font-family:HelveticaNeueETW02-65Md;
+	 line-height: 10px;
+	 margin: 0px 0px 0.931em 0px;
+	 text-align: center;
+}
+
+ul.menu-hz {
+	 margin: 0 0 1em 0;
+	 list-style: none;
+	 text-align: center;
+}
+
+li.menu-hz-li {
+	 margin: 0 0.5em 0 0.5em;
+	 font-size: 16px;
+	 display: inline-block;
+}
+
+header.masthead {
+	 margin: 0 auto 0 auto;
+	 padding: 3px;
+}
+
+header.masthead:before {
+	 content: "";
+	 display: table;
+}
+
+header.masthead:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+
+img.logo {
+	 max-width:300px;
+	 width: 130px;
+	 float: left;
+}
+
+footer.site-footer {
+	 background-color: #333;
+	 color: #fff;
+	 text-align: center;
+	 padding: 5px 2px;
+	 width: auto;
+	 margin: 0 auto;
+}
+
+footer.site-footer:before {
+	 content: "";
+	 display: table;
+}
+
+footer.site-footer:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+
+ul.footer-nav {
+	 list-style: none;
+}
+
+li.footer-li {
+	 margin: 0 0.5em 0 0.5em;
+	 font-size: 16px;
+	 display: inline-block;
+}
+
+a.footer-a {
+	 color: #ffffff;
+}
+
+img.standard {
+	 max-width: 100%;
+	 width: 604px;
+	 padding:100px,100px;
+
+}
+
+@media only screen and (max-width: 480px) {
+	 body {
+	 font-size: 90%;
+}
+
+@media only screen and (max-width: 900px) {
+	 article {
+	 margin: 0 auto;
+	 width: 100%;
+	 padding: 0 2em;
+}
